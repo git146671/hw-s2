@@ -1,0 +1,39 @@
+.sendForm {
+    display: flex;
+    margin-top: 50px;
+}
+
+.textarea {
+    width: 100%;
+    padding-left: 10px;
+    /*resize: none;*/
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #cbcbcb;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    border-width: 0;
+    /*типизировать высоту не получается т.к. в компоненте sender какой то неонятный useEffect */
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #06c;
+    color: white;
+    border-radius: 30px;
+    border-width: 0;
+    margin-left: 44px;
+}
+
+.button:hover {
+
+}
+
+.button:active {
+
+}
