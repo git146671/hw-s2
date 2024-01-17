@@ -34,7 +34,7 @@ function Affairs(props: AffairsPropsType) {
     const cnLow = s.button + ' ' + s.low + (props.filter === 'low' ? ' ' + s.active : '')
 
     const mappedAffairs = props.data.map((a: AffairType) => (
-        (props.filter === 'all' || props.filter === a.priority) &&
+        // (props.filter === 'all' || props.filter === a.priority) &&
         <Affair
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
             affair={a}
