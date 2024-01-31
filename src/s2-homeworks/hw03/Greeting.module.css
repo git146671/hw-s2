@@ -1,19 +1,23 @@
 .greetingForm {
+
 }
 
 .inputAndButtonContainer {
 }
 
 .error {
+    color: red
 }
 
 .input {
+    border: 1px solid green
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border: 1px solid red
 }
 
 .button {
